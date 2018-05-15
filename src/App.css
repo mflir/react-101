@@ -2,9 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.app-avatar {
+   width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  border: solid #82e0aa 5px;
 }
 
 .App-header {
