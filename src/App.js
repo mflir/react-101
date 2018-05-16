@@ -11,10 +11,17 @@ class App extends Component {
       
       <Router>
         <Fragment>
-        <Link to="/"> go to home</Link>
-        <br/>
+        <div class="foto">
         <img class="app-avatar" src={avatar} alt="avatar" />
-        <Link to="/about">go to about</Link>
+        </div>
+        <div class="app-titulo">
+        <h1>florencia scavone</h1>
+        <h4>web developer</h4>
+        </div>
+        <footer>
+        <Link class="link" to="/"> go to home</Link>
+        <Link class="link" to="/about">go to about</Link>
+        </footer>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         </Fragment>
