@@ -7,13 +7,15 @@
   border: solid #82e0aa 10px;
 } 
 
-footer{
+.foo{
   background-color: #82e0aa;
   padding: 20px;
     position: absolute;
   bottom: 0;
   width: 97%;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 
 }
 
@@ -23,7 +25,7 @@ footer{
 }
 
 
-.app-titulo{
+.app-titulo {
   text-align: center;
 }
 
@@ -41,4 +43,14 @@ h1{
 .app-titulo h4{
   font-size: 10px;
   color: white;
+  text-align: center;
+}
+
+.About{
+  text-align: center;
+  margin-top: 200px;
+}
+
+p-about{
+  text-align: center;
 }
