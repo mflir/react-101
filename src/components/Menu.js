@@ -14,7 +14,7 @@ class Menu extends Component {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
 
-        <div class="menu">
+        <div class="foo">
         <Link class="link" to="/">home</Link>
         <Link class="link" to="/about">about me</Link>
         <Link class="link" to="/contact">contact</Link>

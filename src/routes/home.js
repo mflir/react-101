@@ -10,7 +10,7 @@ class Home extends Component {
         </div>
         <div class="app-titulo">
         <h1>Florencia Scavone</h1>
-        <h4>Frontend web developer</h4>
+        <h4>descripcion</h4>
         </div>
       </div>
     );

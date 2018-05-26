@@ -8,11 +8,7 @@ class About extends Component {
         <header className="App-header">
           <h1 className="App-titulo">About me</h1>
         </header>
-        <p className="p-about"> I am a student of the Degree in Multimedia Arts of UNA </p>
-        <p>(National University of the Arts) </p>
-        <p>and Front-end developer in training, </p>
-        <p>skilled in HTML, CSS, Js, jQuery, git</p> 
-        <p>and currently learning React.js.</p>
+        <p className="p-about">texto sobre mi</p>
       </div>
     );
   }
