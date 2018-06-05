@@ -5,14 +5,15 @@ class Contact extends Component {
     render() {
         return (
             <div className="Contact">
-                <h1>Contacto</h1>
+                <h1 className="App-titulo">Contacto</h1>
+                <div className="container-li">
                 <ul>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Instagram</a></li>
+                    <li class="link"><a href="#">Twitter</a></li>
+                    <li class="link"><a href="#">Linkedin</a></li>
+                    <li class="link"><a href="#">Instagram</a></li>
                 </ul>
             </div>
-
+</div>
         );
     }
 }

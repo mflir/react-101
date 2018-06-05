@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.link{
+a, .link{
   text-decoration: none;
   color: white;
 }
@@ -54,3 +54,10 @@ h1{
 p-about{
   text-align: center;
 }
+
+.Contact{
+  text-align: center;
+  margin-top: 200px;
+  text-decoration: none;
+}
+
